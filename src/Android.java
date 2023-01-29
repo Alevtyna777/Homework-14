@@ -1,4 +1,4 @@
-public class Android implements Smarthphone and Linux{
+ public class Android implements Smarthphone, Linux{
     @Override
     public void call() {
       System.out.println("Android call");

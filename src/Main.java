@@ -1,6 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        IPhone iPhone = new iPhone();
+        iPhone iPhone = new iPhone();
+        iPhone.call();
+
+        iPhone.sms();
+
+        iPhone.internet();
+
         Android android =  new Android();
+        android.call();
+
+        android.sms();
+
+        android.internet();
     }
 }
